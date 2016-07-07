@@ -31,3 +31,10 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Temporary files
+*.swp
+
+# Binaries
+quicksort
+quicksort-threaded
