@@ -38,5 +38,6 @@
 # Binaries
 binary-tree
 heapsort
+mergesort
 quicksort
 quicksort-threaded

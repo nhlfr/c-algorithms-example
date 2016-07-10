@@ -1,11 +1,14 @@
 CC=gcc
 LDFLAGS=-lpthread
 
-all: heapsort quicksort quicksort-threaded binary-tree
+all: heapsort mergesort quicksort quicksort-threaded binary-tree
 .PHONY: all
 
 heapsort: heapsort.c
 	$(CC) -o heapsort heapsort.c
+
+mergesort: mergesort.c
+	$(CC) -o mergesort mergesort.c
 
 quicksort: quicksort.c
 	$(CC) -o quicksort quicksort.c
