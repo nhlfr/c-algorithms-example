@@ -36,5 +36,7 @@
 *.swp
 
 # Binaries
+binary-tree
+heapsort
 quicksort
 quicksort-threaded
